@@ -39,6 +39,8 @@ int main(){
 	scanf("%d", &t);
 	REP(i, t){
 		cin>>s[i];
+	}
+	REP(i,t){
 		int flag=-1;
 		FOR(j,0,i){
 			if(s[i]==s[j]){
