@@ -1049,6 +1049,22 @@
     ],
     "timestamp": "Jan/14/2021 19:36"
   },
+  "CF77210346": {
+    "contest_id": 32,
+    "language": "GNU C++14",
+    "path": "codeforces\\32\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reconnaissance",
+    "problem_url": "https://codeforces.com/contest/32/problem/A",
+    "submission_id": "CF77210346",
+    "submission_url": "https://codeforces.com/contest/32/submission/77210346",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Apr/18/2020 23:14"
+  },
   "CF77219263": {
     "contest_id": 1162,
     "language": "GNU C++14",
