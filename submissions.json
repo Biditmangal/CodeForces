@@ -1049,6 +1049,25 @@
     ],
     "timestamp": "Jan/14/2021 19:36"
   },
+  "CF77313841": {
+    "contest_id": 931,
+    "language": "GNU C++14",
+    "path": "codeforces\\931\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Friends Meeting",
+    "problem_url": "https://codeforces.com/contest/931/problem/A",
+    "submission_id": "CF77313841",
+    "submission_url": "https://codeforces.com/contest/931/submission/77313841",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/20/2020 03:08"
+  },
   "CF77315138": {
     "contest_id": 1028,
     "language": "GNU C++14",
