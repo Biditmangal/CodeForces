@@ -38,7 +38,7 @@ int main(){
 	cin>>a>>b>>c>>n;
 	int count=0;
 	REP(i,n){
-		int num;
+		long num;
 		cin>>num;
 		count+=((b<num)&&(num<c));
 	}
