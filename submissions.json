@@ -1049,6 +1049,22 @@
     ],
     "timestamp": "Jan/14/2021 19:36"
   },
+  "CF77449664": {
+    "contest_id": 873,
+    "language": "GNU C++14",
+    "path": "codeforces\\873\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chores",
+    "problem_url": "https://codeforces.com/contest/873/problem/A",
+    "submission_id": "CF77449664",
+    "submission_url": "https://codeforces.com/contest/873/submission/77449664",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Apr/21/2020 14:57"
+  },
   "CF77468535": {
     "contest_id": 202,
     "language": "GNU C++14",
