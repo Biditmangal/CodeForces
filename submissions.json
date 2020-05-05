@@ -1049,6 +1049,22 @@
     ],
     "timestamp": "Jan/14/2021 19:36"
   },
+  "CF79077188": {
+    "contest_id": 52,
+    "language": "GNU C++14",
+    "path": "codeforces\\52\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "123-sequence",
+    "problem_url": "https://codeforces.com/contest/52/problem/A",
+    "submission_id": "CF79077188",
+    "submission_url": "https://codeforces.com/contest/52/submission/79077188",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "May/05/2020 22:19"
+  },
   "CF79395981": {
     "contest_id": 1351,
     "language": "GNU C++14",
