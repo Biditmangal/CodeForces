@@ -1,4 +1,22 @@
 {
+  "CF102582385": {
+    "contest_id": 357,
+    "language": "GNU C++14",
+    "path": "codeforces\\357\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Group of Students",
+    "problem_url": "https://codeforces.com/contest/357/problem/A",
+    "submission_id": "CF102582385",
+    "submission_url": "https://codeforces.com/contest/357/submission/102582385",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Dec/28/2020 20:46"
+  },
   "CF102602691": {
     "contest_id": 352,
     "language": "GNU C++14",
