@@ -37,7 +37,13 @@ int main(){
     int n;
     cin>>n;
 
-    cout<<2*(ceil(2*sqrt(n)))<<endl;
+    float w,h;
+
+    w=ceil(sqrt(n));
+    h=ceil(n/w);
+
+
+    cout<<2*(h+w)<<endl;
 
     return 0;
 }
