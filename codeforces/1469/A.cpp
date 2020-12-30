@@ -43,36 +43,23 @@ int main(){
 
         string s;
         cin>>s;
-        int count=(s.length()/2) - 1;
+        // int count=0;
 
-        for(int i=0;i<s.length();++i){
-
-            if(s[i]=='?'){
-                if(count>0){
-                    count--;
-                    s[i]='(';
-                }
-                else{
-                    s[i]=')';
-                }
-            }
-        }
-
-        int bal=0,minbal=0;
-
-        for(int i=0;i<s.length();++i){
-            s[i]=='(' ? bal++ : bal-- ;
-            minbal=min(bal,minbal);
-        }
-
-        cout<< (bal == 0  &&   minbal >= 0 ? "YES" : "NO") << endl;
-
-        // if( s.length() % 2 == 0 && s[0]!= ')' && s[s.length()-1]!= '(' )
-        //     cout<<"YES"<<endl;
-        // else
-        // {
-        //     cout<<"NO"<<endl;
+        // for(int i=0;i<s.length();++i){
+        //     s[i] == '(' ? count++ : s[i] == ')' ? count-- : s[i]=='?' && count>0 && s[i+1] != ')' ? count-- : count++; 
+        //     if(count<0){
+        //         break;
+        //     }
         // }
+
+        // cout<< (count == 0 ? "YES" : "NO") << endl;
+
+        if( s.length() % 2 == 0 && s[0]!= ')' && s[s.length()-1]!= '(' )
+            cout<<"YES"<<endl;
+        else
+        {
+            cout<<"NO"<<endl;
+        }
         
     }
 
