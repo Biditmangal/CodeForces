@@ -39,20 +39,20 @@ int main(){
     while(t--){
 
         int n,m;
+        int r[105]={0},b[105]={0};
         cin>>n;
         int sum = 0;
         int redmax=0,bluemax=0;
-        int number;
         FOR(i,0,n){
-            cin>>number;
-            sum+=number;
+            cin>>r[i];
+            sum+=r[i];
             redmax=max(sum,redmax);
         }
         sum=0;
         cin>>m;
         FOR(i,0,m){
-            cin>>number;
-            sum+=number;
+            cin>>b[i];
+            sum+=b[i];
             bluemax=max(sum,bluemax);
         }
 
