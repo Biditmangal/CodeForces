@@ -42,10 +42,9 @@ int solve(int n){
     x = floor(log2(n));
     // cout<<"x "<<x<<endl;
 
-    // FOR(i,0,x){
-    //     k=2*k;
-    // }
-    k=pow(2,x);
+    FOR(i,0,x){
+        k=2*k;
+    }
 
     // cout<<"k "<<k<<endl ;
 
