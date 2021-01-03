@@ -35,23 +35,27 @@ using namespace std;
 
 void solve(){
     int n,m,neg=0;
-    int ans=0,mini=1e9;
     cin>>n>>m;
+
+    int a[11][11];
 
     FOR(i,0,n){
         FOR(j,0,m){
-            int a;
-            cin>>a;
-            if(a<0) neg++;
-            mini=min(mini,abs(a));
-            ans+=abs(a);
+            cin>>a[i][j];
+            if(a[i][j]<0) neg++;
         }
     }
-
+    int ans=0,mini=1e9;
+    
+    FOR(i,0,n){
+        FOR(j,0,m){
+            ans+=abs(a[i][j]);
+            mini=min(mini,abs(a[i][j]));
+        }
+    }
     if(neg % 2 != 0){
         ans-=2*mini;
     }
-
     cout<<ans<<endl;
 
 }
