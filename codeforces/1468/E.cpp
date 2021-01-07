@@ -44,7 +44,7 @@ int main(){
 
         SORT(a,4);
 
-        int ans=(a[0]*a[2]);
+        int ans=(min(a[0],a[1])*min(a[2],a[3]));
 
         cout<<ans<<endl;
     }
