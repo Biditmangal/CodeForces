@@ -37,8 +37,7 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        ll a[4];
-
+        int a[4];
         for(auto &i:a){
             cin>>i;
         }
