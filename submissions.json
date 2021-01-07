@@ -1,4 +1,22 @@
 {
+  "CF103630928": {
+    "contest_id": 1278,
+    "language": "GNU C++17",
+    "path": "codeforces\\1278\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shuffle Hashing",
+    "problem_url": "https://codeforces.com/contest/1278/problem/A",
+    "submission_id": "CF103630928",
+    "submission_url": "https://codeforces.com/contest/1278/submission/103630928",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Jan/07/2021 17:59"
+  },
   "CF103633239": {
     "contest_id": 1277,
     "language": "GNU C++17",
