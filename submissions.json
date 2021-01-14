@@ -1049,6 +1049,22 @@
     ],
     "timestamp": "Jan/14/2021 19:36"
   },
+  "CF104313644": {
+    "contest_id": 1473,
+    "language": "GNU C++17",
+    "path": "codeforces\\1473\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "String LCM",
+    "problem_url": "https://codeforces.com/contest/1473/problem/B",
+    "submission_id": "CF104313644",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104313644",
+    "tags": [
+      "math",
+      "strings"
+    ],
+    "timestamp": "Jan/14/2021 20:50"
+  },
   "CF104333629": {
     "contest_id": 1473,
     "language": "GNU C++17",
