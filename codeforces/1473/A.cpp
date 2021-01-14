@@ -38,12 +38,13 @@ void solve()
 {
     int n,d;
     cin>>n>>d;
-    vector<int> a(n);
+    vector<int> a(n),c;
     bool ans=true;
     FOR(i,0,n){
         cin>>a[i];
         if(a[i]>d){
             ans=false;
+            c.pb(a[i]);
         }
     }
     int sum=0;
@@ -57,6 +58,25 @@ void solve()
             ans=true;
         }
     }
+
+    // sort(a.begin(),a.end());
+    // sort(c.begin(),c.end());
+    // int count=c.size();
+    // int k=0;
+    // for(int i=0;i<n;i++){
+    //     for(int j=i+1;j<n-c.size();j++){
+    //         if(a[i]+a[j]==c[k]){
+    //             count--;
+    //             k++;
+    //         }
+    //     }
+    // }
+    // if(c.size()!=0){
+    //     ans=false;
+    // }
+    // else{
+    //     ans=true;
+    // }
 
     cout<< (ans ? "YES" : "NO") <<endl;
 
