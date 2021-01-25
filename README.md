@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-140 | [C - Ball in Berland](https://codeforces.com/contest/1475/problem/C) | [GNU C++17](./codeforces/1475/C.cpp) | `combinatorics` `graphs` `hashing` `math` | Jan/25/2021 23:00 | 
-139 | [B - New Year's Number](https://codeforces.com/contest/1475/problem/B) | [GNU C++17](./codeforces/1475/B.cpp) | `dp` `math` | Jan/25/2021 22:46 | 
+141 | [C - Ball in Berland](https://codeforces.com/contest/1475/problem/C) | [GNU C++17](./codeforces/1475/C.cpp) | `combinatorics` `graphs` `hashing` `math` | Jan/25/2021 23:00 | 
+140 | [B - New Year's Number](https://codeforces.com/contest/1475/problem/B) | [GNU C++17](./codeforces/1475/B.cpp) | `dp` `math` | Jan/25/2021 22:46 | 
+139 | [A - Odd Divisor](https://codeforces.com/contest/1475/problem/A) | [GNU C++17](./codeforces/1475/A.cpp) | `math` `number theory` | Jan/25/2021 21:22 | 
 138 | [A - Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | [GNU C++17](./codeforces/1180/A.cpp) | `dp` `implementation` `math` `*800` | Jan/23/2021 20:05 | 
 137 | [B - Fence](https://codeforces.com/contest/363/problem/B) | [GNU C++17](./codeforces/363/B.cpp) | `brute force` `dp` `*1100` | Jan/23/2021 19:19 | 
 136 | [B - Different Divisors](https://codeforces.com/contest/1474/problem/B) | [GNU C++17](./codeforces/1474/B.cpp) | `binary search` `constructive algorithms` `greedy` `math` `number theory` `*1000` | Jan/23/2021 00:01 | 
