@@ -42,9 +42,6 @@ void solve()
 
     for(int i=0;i<=500;i++){
         for(int j=0;j<=500;j++){
-            if(n<2020){
-                break;
-            }
             if(2020*j + 2021*i == n){
                 ans=true;
                 break;
