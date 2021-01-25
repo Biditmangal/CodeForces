@@ -33,19 +33,18 @@ using namespace std;
 #define pii pair<int, int>
 #define MOD 1000000007
 
-int solve()
+void solve()
 {
     // code goes here...
     bool ans=false;
     int n;
     cin>>n;
 
-    if(n<2020){
-        cout<<"NO"<<"\n";
-        return 0;
-    }
     for(int i=0;i<=500;i++){
         for(int j=0;j<=500;j++){
+            if(n<2020){
+                break;
+            }
             if(2020*j + 2021*i == n){
                 ans=true;
                 break;
@@ -53,7 +52,6 @@ int solve()
         }
     }
     cout << (ans ? "YES" : "NO") << "\n";
-    return 0;
 }
 int main()
 {
