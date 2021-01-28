@@ -1558,6 +1558,22 @@
     ],
     "timestamp": "Jan/26/2021 21:46"
   },
+  "CF105770732": {
+    "contest_id": 1478,
+    "language": "GNU C++17",
+    "path": "codeforces\\1478\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nezzar and Lucky Number",
+    "problem_url": "https://codeforces.com/contest/1478/problem/B",
+    "submission_id": "CF105770732",
+    "submission_url": "https://codeforces.com/contest/1478/submission/105770732",
+    "tags": [
+      "dp",
+      "math"
+    ],
+    "timestamp": "Jan/28/2021 22:56"
+  },
   "CF76067665": {
     "contest_id": 977,
     "language": "GNU C++11",
