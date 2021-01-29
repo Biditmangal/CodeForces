@@ -1587,6 +1587,23 @@
     ],
     "timestamp": "Jan/28/2021 22:56"
   },
+  "CF105941152": {
+    "contest_id": 1476,
+    "language": "GNU C++17",
+    "path": "codeforces\\1476\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "K-divisible Sum",
+    "problem_url": "https://codeforces.com/contest/1476/problem/A",
+    "submission_id": "CF105941152",
+    "submission_url": "https://codeforces.com/contest/1476/submission/105941152",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "math"
+    ],
+    "timestamp": "Jan/29/2021 22:16"
+  },
   "CF76067665": {
     "contest_id": 977,
     "language": "GNU C++11",
