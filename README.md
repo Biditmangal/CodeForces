@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-171 | [B - Rock and Lever](https://codeforces.com/contest/1420/problem/B) | [GNU C++17](./codeforces/1420/B.cpp) | `bitmasks` `math` `*1200` | Feb/06/2021 16:56 | 
-170 | [B - Belted Rooms](https://codeforces.com/contest/1428/problem/B) | [GNU C++17](./codeforces/1428/B.cpp) | `graphs` `implementation` `*1200` | Feb/06/2021 16:38 | 
+172 | [B - Rock and Lever](https://codeforces.com/contest/1420/problem/B) | [GNU C++17](./codeforces/1420/B.cpp) | `bitmasks` `math` `*1200` | Feb/06/2021 16:56 | 
+171 | [B - Belted Rooms](https://codeforces.com/contest/1428/problem/B) | [GNU C++17](./codeforces/1428/B.cpp) | `graphs` `implementation` `*1200` | Feb/06/2021 16:38 | 
+170 | [C - Dominant Piranha](https://codeforces.com/contest/1433/problem/C) | [GNU C++17](./codeforces/1433/C.cpp) | `constructive algorithms` `greedy` `*900` | Feb/06/2021 15:57 | 
 169 | [B - New Colony](https://codeforces.com/contest/1481/problem/B) | [GNU C++17](./codeforces/1481/B.cpp) | `brute force` `greedy` `implementation` | Feb/05/2021 22:47 | 
 168 | [A - Space Navigation ](https://codeforces.com/contest/1481/problem/A) | [GNU C++17](./codeforces/1481/A.cpp) | `greedy` `implementation` `strings` | Feb/05/2021 20:35 | 
 167 | [B - Yet Another Bookshelf](https://codeforces.com/contest/1433/problem/B) | [GNU C++17](./codeforces/1433/B.cpp) | `greedy` `implementation` `*800` | Feb/05/2021 19:53 | 
