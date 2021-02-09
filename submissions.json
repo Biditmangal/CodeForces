@@ -2164,6 +2164,24 @@
     ],
     "timestamp": "Feb/08/2021 15:25"
   },
+  "CF106964518": {
+    "contest_id": 1143,
+    "language": "GNU C++17",
+    "path": "codeforces\\1143\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nirvana",
+    "problem_url": "https://codeforces.com/contest/1143/problem/B",
+    "submission_id": "CF106964518",
+    "submission_url": "https://codeforces.com/contest/1143/submission/106964518",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Feb/09/2021 14:06"
+  },
   "CF106966616": {
     "contest_id": 1029,
     "language": "GNU C++17",
