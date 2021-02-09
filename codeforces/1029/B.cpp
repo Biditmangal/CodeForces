@@ -42,14 +42,17 @@ void solve()
     FOR(i,0,n){
         cin>>a[i];
     }
-    int ans=1,count=1;
+    int ans=1;
+    int count=1;
     FOR(i,1,n){
         if(a[i]>2*a[i-1]){
             count=1;
         }
         else{
             count++;
-            ans= max(ans,count);
+            if(count>ans){
+                ans=count;
+            }
         }
     }
     cout<<ans;

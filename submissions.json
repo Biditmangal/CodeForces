@@ -2164,6 +2164,24 @@
     ],
     "timestamp": "Feb/08/2021 15:25"
   },
+  "CF106966616": {
+    "contest_id": 1029,
+    "language": "GNU C++17",
+    "path": "codeforces\\1029\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Creating the Contest",
+    "problem_url": "https://codeforces.com/contest/1029/problem/B",
+    "submission_id": "CF106966616",
+    "submission_url": "https://codeforces.com/contest/1029/submission/106966616",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/09/2021 14:36"
+  },
   "CF106966753": {
     "contest_id": 1029,
     "language": "GNU C++17",
