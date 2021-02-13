@@ -38,7 +38,7 @@ void solve()
     // code goes here...
     int n;
     cin>>n;
-    int a[n+1]={},b[n+1]={};
+    int a[2*n+1]={},b[n+1]={};
 
     FOR(i,1,2*n+1){
         int x;
