@@ -39,81 +39,65 @@ void solve()
     int n;
     cin >> n;
     int a[n];
-    int emin = MOD;
-    int ans = 0;
     FOR(i, 0, n)
     {
         cin >> a[i];
+    }
+    sort(a, a + n);
+    vector<int> odd = {}, even = {};
+    for (int i = 0; i < n; i++)
+    {
         if (a[i] % 2 != 0)
         {
-            emin = min(emin, a[i]);
+            odd.pb(a[i]);
         }
-        ans += a[i];
+        else
+        {
+            even.pb(a[i]);
+        }
     }
-
-    if (ans % 2 == 0)
+    int ans=0;
+    if (odd.size() == 0)
     {
-        ans -= emin;
-        ans = ans < 0 ? 0 : ans;
+        ans = 0;
     }
-    cout<<ans;
-    // sort(a, a + n);
-    // vector<int> odd = {}, even = {};
-    // for (int i = 0; i < n; i++)
-    // {
-    //     if (a[i] % 2 != 0)
-    //     {
-    //         odd.pb(a[i]);
-    //     }
-    //     else
-    //     {
-    //         even.pb(a[i]);
-    //     }
-    // }
-    // int ans = 0;
-    // if (odd.size() == 0)
-    // {
-    //     ans = 0;
-    // }
-    // else if (even.size() == 0)
-    // {
-    //     if (odd.size() % 2 == 0)
-    //     {
-    //         for (int i = 1; i < odd.size(); i++)
-    //         {
-    //             ans += odd[i];
-    //         }
-    //     }
-    //     else
-    //     {
-    //         for (int i = 0; i < odd.size(); i++)
-    //         {
-    //             ans += odd[i];
-    //         }
-    //     }
-    // }
-    // else
-    // {
-    //     if (odd.size() % 2 == 0)
-    //     {
-    //         for (int i = 1; i < odd.size(); i++)
-    //         {
-    //             ans += odd[i];
-    //         }
-    //     }
-    //     else
-    //     {
-    //         for (int i = 0; i < odd.size(); i++)
-    //         {
-    //             ans += odd[i];
-    //         }
-    //     }
-    //     for (int i = 0; i < even.size(); i++)
-    //     {
-    //         ans += even[i];
-    //     }
-    // }
-    // cout << ans << endl;
+    else if (even.size() == 0)
+    {
+        if(odd.size()%2==0){
+            for(int i=1;i<odd.size();i++){
+                ans+=odd[i];
+            }
+        }
+        else{
+            for (int i = 0; i < odd.size(); i++)
+            {
+                ans += odd[i];
+            }
+        }
+        // ans = odd[odd.size() - 1];
+    }
+    else{
+        // ans = odd[odd.size() - 1] + even[even.size() - 1];
+        if (odd.size() % 2 == 0)
+        {
+            for (int i = 1; i < odd.size(); i++)
+            {
+                ans += odd[i];
+            }
+        }
+        else
+        {
+            for (int i = 0; i < odd.size(); i++)
+            {
+                ans += odd[i];
+            }
+        }
+        for (int i = 0; i < even.size(); i++)
+        {
+            ans += even[i];
+        }
+    }
+    cout << ans << endl;
 }
 int main()
 {
