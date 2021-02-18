@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-209 | [B - Eastern Exhibition](https://codeforces.com/contest/1486/problem/B) | [GNU C++17](./codeforces/1486/B.cpp) | `geometry` `sortings` | Feb/18/2021 23:20 | 
+210 | [B - Eastern Exhibition](https://codeforces.com/contest/1486/problem/B) | [GNU C++17](./codeforces/1486/B.cpp) | `geometry` `sortings` | Feb/18/2021 23:20 | 
+209 | [A - Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | [GNU C++17](./codeforces/1486/A.cpp) | `greedy` `implementation` | Feb/18/2021 20:43 | 
 208 | [B - Elimination](https://codeforces.com/contest/1445/problem/B) | [GNU C++17](./codeforces/1445/B.cpp) | `greedy` `math` `*900` | Feb/17/2021 16:13 | 
 207 | [A - Array Rearrangment](https://codeforces.com/contest/1445/problem/A) | [GNU C++17](./codeforces/1445/A.cpp) | `greedy` `sortings` `*800` | Feb/17/2021 15:54 | 
 206 | [B - Saving the City](https://codeforces.com/contest/1443/problem/B) | [GNU C++17](./codeforces/1443/B.cpp) | `dp` `greedy` `math` `sortings` `*1300` | Feb/17/2021 15:10 | 
