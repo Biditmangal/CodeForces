@@ -3100,6 +3100,24 @@
     ],
     "timestamp": "Mar/01/2021 14:09"
   },
+  "CF109031795": {
+    "contest_id": 1140,
+    "language": "GNU C++17",
+    "path": "codeforces\\1140\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Minimum Triangulation",
+    "problem_url": "https://codeforces.com/contest/1140/problem/D",
+    "submission_id": "CF109031795",
+    "submission_url": "https://codeforces.com/contest/1140/submission/109031795",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/03/2021 23:33"
+  },
   "CF109164262": {
     "contest_id": 1,
     "language": "GNU C++17",
