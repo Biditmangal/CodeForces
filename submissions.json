@@ -3290,6 +3290,23 @@
     ],
     "timestamp": "Mar/08/2021 21:25"
   },
+  "CF109500892": {
+    "contest_id": 287,
+    "language": "GNU C++17",
+    "path": "codeforces\\287\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "IQ Test",
+    "problem_url": "https://codeforces.com/contest/287/problem/A",
+    "submission_id": "CF109500892",
+    "submission_url": "https://codeforces.com/contest/287/submission/109500892",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/09/2021 21:29"
+  },
   "CF109504325": {
     "contest_id": 236,
     "language": "GNU C++17",
