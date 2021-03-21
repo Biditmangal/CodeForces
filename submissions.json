@@ -3449,6 +3449,19 @@
     ],
     "timestamp": "Mar/19/2021 21:49"
   },
+  "CF110635048": {
+    "contest_id": 1484,
+    "language": "GNU C++17",
+    "path": "codeforces\\1484\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prison Break",
+    "problem_url": "https://codeforces.com/contest/1484/problem/A",
+    "submission_id": "CF110635048",
+    "submission_url": "https://codeforces.com/contest/1484/submission/110635048",
+    "tags": [],
+    "timestamp": "Mar/21/2021 19:06"
+  },
   "CF76067665": {
     "contest_id": 977,
     "language": "GNU C++11",
